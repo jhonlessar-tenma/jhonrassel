@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Projects</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body style="overflow: hidden; height: 100vh; margin: 0;">
+    <nav>
+        <div class="container nav-inner">
+            <a href="index.html" class="logo">Porfolio</a>
+
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <div class="nav-links" id="nav-list">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a class="active" href="projects.html">Project</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main style="height: calc(100vh - 160px); overflow: hidden; display: flex; align-items: center; justify-content: center; padding: 1rem 0;">
+      <section class="section" style="padding: 0; height: 100%; width: 100%;">
+        <div class="container" style="height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+          <h2 class="section-title" style="margin-bottom: 1.5rem; text-align: center;">Projects</h2>
+          <div class="projects-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 1.5rem; width: 100%; max-width: 1000px;">
+            <article class="card project-card" style="padding: 1.5rem;">
+              <div class="project-image" style="margin-bottom: 1rem;">
+                <img src="https://images.steamusercontent.com/ugc/804367961392416716/F0ABA72B66B353110D71FAD4BC5BE8D96A301BFA/?imw=800&ima=fit&impolicy=Letterbox&imcolor=%23000000" 
+                     alt="Stream Community - Rules of Survival Portfolio" 
+                     loading="lazy"
+                     style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;" />
+              </div>
+              <div class="project-content">
+                <h3 style="margin-bottom: 0.75rem;">Stream Community</h3>
+                <p style="margin: 0; line-height: 1.6; font-size: 0.95rem;">Rules of Survival–inspired portfolio with gaming content showcase, responsive layouts, smooth animations, and mobile-optimized navigation.</p>
+              </div>
+            </article>
+
+            <article class="card project-card" style="padding: 1.5rem;">
+              <div class="project-image" style="margin-bottom: 1rem;">
+                <img src="https://images.steamusercontent.com/ugc/1054352103022851640/A31AF24030ADF08633ACEE69AE2B934B5FF6744C/?imw=800&ima=fit&impolicy=Letterbox&imcolor=%23000000" 
+                     alt="Small Artwork - Gaming Landing Page" 
+                     loading="lazy"
+                     style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;" />
+              </div>
+              <div class="project-content">
+                <h3 style="margin-bottom: 0.75rem;">Small Artwork</h3>
+                <p style="margin: 0; line-height: 1.6; font-size: 0.95rem;">Gaming-themed landing page with dynamic hero, CSS Grid layout, responsive design, and interactive forms with validation.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer style="position: fixed; bottom: 0; left: 0; right: 0; width: 100%; background: rgba(0,0,0,0.9); padding: 0.75rem 0;">
+      <p style="margin: 0; text-align: center; font-size: 0.9rem;">&copy; 2026 Jhon Rassel Peckley. Built for WebDev final project.</p>
+    </footer>
+    <script src="assets/java/script.js"></script>
+  </body>
+</html>
